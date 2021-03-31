@@ -1,4 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   padding: 0;
   margin: 0;
+}
+
+:root {
+  --blanco: #ffffff;
+  --gris1: #f1f1f1;
+  --rojo2: #DF1A22;
+  --gris3: #2d1a1a;
+  --negro: #000000;
+  --headingFont: 'Raleway', sans-serif;
+  --textFont: 'Roboto', sans-serif;
+}
+
+.header-mine{
+background-color: var(--gris3);
 }
