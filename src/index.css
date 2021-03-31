@@ -20,3 +20,16 @@
 .header-mine{
 background-color: var(--gris3);
 }
+.facebook{
+  color: #3b5998;
+}
+.twitter{
+  color: #00acee;
+}
+.youtube{
+  color: #c4302b;
+}
+.instagram{
+  /* background: #d6249f; */
+  color: #3f729b
+}
