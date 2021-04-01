@@ -1,4 +1,5 @@
 import React from 'react'
+import Articulos from '../articulos/Articulos';
 import Footer from '../layouts/Footer';
 import Jumbotron from '../layouts/Jumbotron';
 import Navbar from '../layouts/Navbar';
@@ -10,7 +11,7 @@ const Home = () => {
             <Navbar/>
             <div className="container-app bg-gray-50">
                 <div className="container mx-auto p-5 bg-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat
+                    <Articulos />
                 </div>
             </div>
             <Footer />

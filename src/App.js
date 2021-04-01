@@ -8,26 +8,29 @@ import {
 import Header from './components/layouts/Header';
 import Home from './components/pages/Home';
 
+import ArticuloState from './context/articulos/articuloState'
+
 
 
 function App() {
   
   return (
-    <Router>
-        <Header />
-        <Switch>
-          <Route path="/about">
+    <ArticuloState>
+      <Router>
+          <Header />
+          <Switch>
+            <Route path="/about">
+              
+            </Route>
+            <Route path="/login">
             
-          </Route>
-          <Route path="/login">
-           
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      
-    </Router>
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+      </Router>
+    </ArticuloState>
   );
 }
 
