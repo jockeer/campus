@@ -13,6 +13,7 @@
   --rojo2: #DF1A22;
   --gris3: #2d1a1a;
   --negro: #000000;
+  --footer:#343A40;
   --headingFont: 'Raleway', sans-serif;
   --textFont: 'Roboto', sans-serif;
 }
@@ -37,4 +38,12 @@ background-color: var(--gris3);
 .logo-size-xs{
   font-size: 40px;
   margin: 0 5px;
+}
+.footer-mine, .navbar-mine{
+  background-color: var(--footer);
+}
+.jumbotron{
+  background: #fff url('./assets/img/fondo.png') no-repeat; 
+  background-size: cover;
+  background-position-y: 80%;
 }
