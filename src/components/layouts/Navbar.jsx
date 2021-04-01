@@ -7,7 +7,7 @@ import Logo from '../../assets/img/utep.png'
 const Navbar = () => {
     return ( 
         <>
-        <nav className=" bg-gray-200">
+        <nav className=" navbar-mine text-white">
             <div className="container mx-auto">
                 <ul className="h-16 flex items-center py-1">
                 <Link to="/" className="block flex h-full">
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </figure>
                 </Link>
                 <NavLink
-                    to="/prueba"
+                    to="/"
                     activeStyle={{
                         fontWeight: "500",
                         borderBottom:'2px',

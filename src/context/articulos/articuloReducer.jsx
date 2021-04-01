@@ -6,7 +6,9 @@ export default (state, action) => {
         case OBTENER_ARTICULOS:
             return{
                 ...state,
-                articulos: action.payload
+                articulos: action.payload.articulos,
+                total: action.payload.total,
+                nuevosArticulos: action.payload.nuevosArticulos
             }
         case EDITAR_ARTICULO:
             return{
